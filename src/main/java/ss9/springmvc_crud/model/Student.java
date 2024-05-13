@@ -1,0 +1,50 @@
+package ss9.springmvc_crud.model;
+
+public class Student {
+    private int studentId;
+    private String studentName;
+    private int Age;
+    private boolean status;
+
+    public Student() {
+    }
+
+    public Student(int studentId, String studentName, int age, boolean status) {
+        this.studentId = studentId;
+        this.studentName = studentName;
+        Age = age;
+        this.status = status;
+    }
+
+    public int getStudentId() {
+        return studentId;
+    }
+
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public int getAge() {
+        return Age;
+    }
+
+    public void setAge(int age) {
+        Age = age;
+    }
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+}
